@@ -1,0 +1,250 @@
+/* GENERAL */
+	@import url('https://fonts.googleapis.com/css?family=Droid+Serif: 300,400,700,900|Merriweather: 300, 300italic, 400, 400italic, 700, 700italic, 900, 900italic|Roboto: 300,400,700,900|Roboto+Condensed: 300,400,700,900');
+	* {
+	    	font-family: "Roboto", sans-serif !important;
+	}
+	html, 
+	body {
+		background: #FACA9B;
+		padding: 0;
+		margin: 0;
+		overflow-x: hidden;
+	}
+	a {
+		text-decoration: none;
+	}
+	footer {
+		background: #25373D;
+		color: #7A888D;
+		font-family: "Merriweather", serif !important;
+		font-size: 9pt;
+		height: 70px;
+		width: 100%;
+		line-height: 70px;
+		text-align: center;
+		margin-top: -100px;
+		margin-bottom: 100px;
+	}
+	footer strong {
+		color: #FFF;
+	}
+
+
+/* CONTAINER */
+	#container {
+		height: 100%;
+		width: 80%;
+		position: absolute;
+		top: 200px;
+		right: 0px;
+		bottom: 0px;
+		left: 0px;
+		margin: auto;
+	}
+	/** BOX **/
+		#box {
+			background: #FFF;
+			border-radius: 2px !important;
+			width: 100%;
+			height: 100%;
+		}
+		/*** HEADER ***/
+			header {
+				background: #25373D;
+				border-top-left-radius: 2px !important;
+				border-top-right-radius: 2px !important;
+				height: 40px;
+			}
+			.dot {
+				background: rgb(208,215,221);
+				border-radius: 50%;
+				height: 8px;
+				width: 8px;
+				display: inline-block;
+				margin-top: 15px;
+				margin-right: -8px;
+				margin-left: 18px;
+			}
+		/*** NAVBAR ***/
+			#navbar {
+				background: #FFF;
+				height: 70px;
+				width: 100%;
+			}
+			#logo {
+				background-image: url("icons/logo.png")  !important;
+				background-position: 83% 30%;
+				background-repeat: no-repeat;
+				background-size: 11px auto !important;
+				border-right: 1px solid #EDEDED;
+				color: #3E4651;
+				font-family: "Bebas Neue" !important;
+				font-size: 20pt !important;
+				font-weight: bold;
+				height: 100% !important;
+				width: 134px !important;
+				line-height: 70px;
+				margin-left: 20px;
+			}
+			#section {
+				background-image: url("icons/drop.png");
+				background-position: 90% 52%;
+				background-repeat: no-repeat;
+				background-size: 13px auto;
+				border-right: 1px solid #EDEDED;
+				border-bottom: 5px solid #E26E67 !important;
+				color: #3E4651;
+				height: 65px !important; 
+				width: 200px !important;
+				letter-spacing: 1px;
+				line-height: 65px;
+				padding-left: 25px;
+				padding-right: 10px;
+				text-transform: uppercase;
+				position: absolute;
+				left: 155px;
+				top: 40px;
+				cursor: pointer !important;
+			}
+			#section span {
+				font-size: 10.5pt !important;
+				font-style: normal !important;
+				font-weight: 900 !important;
+			}
+			#subject {
+				height: 70px !important;
+				width: 100% !important;
+				line-height: 65px;
+				padding-left: 20px;	
+				position: absolute;
+				left: 400px;
+				top: 40px;
+			}
+			#subject span {
+				color: #8E8E8E;	
+				font-family: "Droid Serif", serif !important;
+				font-size: 10.5pt;
+			}
+		/*** BANNER ***/
+			#banner {
+				background: no-repeat url("banner/banner01.png") top center;
+				background-position: center 10% !important;
+				background-size: cover;
+				height: 320px;
+			}
+		/*** CONTENT ***/
+			#content {
+				background: #FFF;
+				height: 140%;	
+				width: 100%;
+				margin-bottom: 30px;
+			}
+			/**** ARTICLE ****/
+				#article {
+					height: auto;
+					width: 75%;
+					margin: 70px auto;
+				}
+				/***** CATEGORY *****/
+					#category {
+						background-image: url("icons/about.png");
+						background-position: left 70%;
+						background-repeat: no-repeat;
+						background-size: 15px auto;
+						padding-left: 25px;
+						margin-bottom: -15px;
+					}
+					#category span {
+						color: #7E7E7E;
+						font-size: 10pt;
+						font-weight: 900 !important;
+						text-transform: uppercase;
+					}
+				/***** TITLE *****/
+					h1#title {
+						color: #F29B34;
+						font-family: "Bebas Neue" !important;
+						font-size: 30pt !important;
+						font-weight: 900; 
+						width: 80%;
+					}
+				/***** TAGS *****/
+					#tags {
+						margin-top: 10px;
+						margin-left: 2px;
+						margin-bottom: 40px;
+					}
+					.tag {
+						border: 1px solid #EBEBEB;
+						color: #A7ADB0;
+						padding: 5px 15px 6px 15px;
+						text-transform: lowercase;
+						margin-right: 12px;
+					}
+				/***** TEXT *****/
+					#text {
+						margin-top: 10px;
+						margin-left: 2px !important;
+					}
+					.meta {
+						color: #7F8E8B;
+						font-family: "Roboto Condensed" !important;
+						font-size: 10.5pt;
+						font-weight: bold;
+						letter-spacing: .5px;	
+						text-transform: uppercase;
+					}
+					.description {
+						color: #25373D;
+						font-family: "Droid Serif", serif !important;
+						font-weight: normal;
+						letter-spacing: 0px;
+						text-transform: none;
+					}
+					.description strong {
+						font-family: "Droid Serif", serif !important;
+					}
+					p.description {
+						line-height: 20px;
+					}
+				/***** PROFILE *****/
+					#profile {
+						height: 200px;
+						width: 100%;
+						margin-top: 30px;
+					}
+					.info_box {
+						background: #FFF;
+						border: 1px solid #EBEBEB;
+						height: 300px;
+						width: 200px;
+						display: inline-block;
+						margin-right: 20px;
+						text-align: center;
+					}
+					.avatar {
+						background-position: center !important;
+						background-size: cover !important;
+						border-radius: 50%;
+						height: 140px;
+						width: 140px;
+						margin: 28px auto;
+					}
+					.name {
+						color: #3C3741;
+						font-family: "Roboto Condensed" !important;
+						font-size: 11pt;
+						font-weight: bold;
+						letter-spacing: .5px;
+						text-transform: uppercase;
+					}
+					.level {
+						color: #7E7E7E;
+						font-family: "Droid Serif", serif !important;
+						font-size: 10pt;
+						margin-top: -6px;
+						margin-bottom: 5px;
+					}
+					.contact {
+						font-size: 10pt !important;
+					}

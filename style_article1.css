@@ -110,7 +110,8 @@
 			#section span,
 			#menu a {
 				color: inherit;
-				font-size: 10.5pt !important;
+				font-family: "Roboto Condensed" !important;
+				font-size: 11pt !important;
 				font-style: normal !important;
 				font-weight: 900 !important;
 			}
@@ -166,7 +167,7 @@
 				}
 				/***** CATEGORY *****/
 					#category {
-						background-image: url("icons/about.png");
+						background-image: url("icons/intro.png");
 						background-position: left 70%;
 						background-repeat: no-repeat;
 						background-size: 15px auto;
@@ -227,3 +228,33 @@
 					p.description {
 						line-height: 20px;
 					}
+			/**** RIGHT BOX ****/
+				#rightbox {
+					background-image: url("icons/next.png");
+					background-position: 80% top;
+					background-repeat: no-repeat; 
+					background-size: 20px auto;
+					height: 300px;
+					width: 150px;
+					position: absolute;
+					top: 546px;
+					right: 30px;
+					text-align: right !important;
+					padding-top: 45px;
+				}
+				#rightbox span {
+					color: #7E7E7E;
+					font-family: "Roboto Condensed" !important;
+					font-size: 10.5pt;
+					font-weight: bold;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					margin-right: 30px;
+				}
+				.other_article {
+					font-size: 11pt !important;
+					height: 100px !important;
+					width: 90px !important;
+					margin-top: 20px;
+					margin-left: 30px;
+				}

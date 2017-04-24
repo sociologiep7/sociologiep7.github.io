@@ -110,7 +110,8 @@
 			#section span,
 			#menu a {
 				color: inherit;
-				font-size: 10.5pt !important;
+				font-family: "Roboto Condensed" !important;
+				font-size: 11pt !important;
 				font-style: normal !important;
 				font-weight: 900 !important;
 			}

@@ -12,6 +12,11 @@
 	}
 	a {
 		text-decoration: none;
+		transition: all .3s ease-in-out !important;
+	}
+	a:hover {
+		opacity: .7;
+		transition: all .3s ease-in-out !important;
 	}
 	#top {
 		background: no-repeat url("icons/top.png") center;

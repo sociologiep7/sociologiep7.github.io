@@ -5,18 +5,13 @@
 	}
 	html, 
 	body {
-		background: #F3C9BF;
+		background: #DED7E6;
 		padding: 0;
 		margin: 0;
 		overflow-x: hidden;
 	}
 	a {
 		text-decoration: none;
-		transition: all .3s ease-in-out !important;
-	}
-	a:hover {
-		opacity: .7;
-		transition: all .3s ease-in-out !important;
 	}
 	#top {
 		background: no-repeat url("icons/top.png") center;
@@ -111,7 +106,7 @@
 				background-repeat: no-repeat;
 				background-size: 13px auto;
 				border-right: 1px solid #EDEDED;
-				border-bottom: 5px solid #1BBC9B !important;
+				border-bottom: 5px solid #396A90 !important;
 				color: #3E4651;
 				height: 65px !important; 
 				width: 200px !important;
@@ -164,8 +159,8 @@
 			}
 		/*** BANNER ***/
 			#banner {
-				background: no-repeat url("banner/banner02.png") center;
-				background-position: center 61% !important;
+				background: no-repeat url("banner/banner03.png") center;
+				background-position: center 20% !important;
 				background-size: cover;
 				height: 320px;
 			}
@@ -180,7 +175,7 @@
 			/**** ARTICLE ****/
 				#article {
 					height: auto;
-					width: 75%;
+					width: 72%;
 					margin: 80px auto;
 				}
 				/***** CATEGORY *****/
@@ -200,7 +195,7 @@
 					}
 				/***** TITLE *****/
 					h1#title {
-						color: #FE6860;
+						color: #7574A7;
 						font-family: "Bebas Neue" !important;
 						font-size: 30pt !important;
 						font-weight: 900; 
@@ -248,14 +243,15 @@
 					}
 			/**** RIGHT BOX ****/
 				#rightbox {
-					background-image: url("icons/next_red.png");
+					background-image: url("icons/next_purple.png");
 					background-position: 80% top;
 					background-repeat: no-repeat; 
 					background-size: 20px auto;
+					color: #212121;
 					height: 300px;
 					width: 150px;
 					position: absolute;
-					top: 546px;
+					top: 556px;
 					right: 30px;
 					text-align: right !important;
 					padding-top: 45px;
@@ -269,8 +265,30 @@
 					text-transform: uppercase;
 					margin-right: 30px;
 				}
-				.other_article {
+				#leftbox {
+					background-image: url("icons/prev.png");
+					background-position: 20% top;
+					background-repeat: no-repeat; 
+					background-size: 20px auto;
 					color: #212121;
+					height: 300px;
+					width: 150px;
+					position: absolute !important;
+					top: 556px;
+					left: 30px;
+					text-align: left !important;
+					padding-top: 45px;
+				}
+				#leftbox span {
+					color: #7E7E7E;
+					font-family: "Roboto Condensed" !important;
+					font-size: 10.5pt;
+					font-weight: bold;
+					letter-spacing: 1px;
+					text-transform: uppercase;
+					margin-left: 30px;
+				}
+				.other_article {
 					font-size: 11pt !important;
 					height: 100px !important;
 					width: 90px !important;

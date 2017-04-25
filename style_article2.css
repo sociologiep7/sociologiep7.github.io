@@ -240,12 +240,18 @@
 						font-weight: normal;
 						letter-spacing: 0px;
 						text-transform: none;
+						margin-top: 40px;
 					}
-					.description strong {
+					.description strong,
+					.description a {
 						font-family: "Droid Serif", serif !important;
 					}
 					p.description {
 						line-height: 20px;
+					}
+
+					.first {
+						font-size: 40pt;
 					}
 			/**** RIGHT BOX ****/
 				#rightbox {

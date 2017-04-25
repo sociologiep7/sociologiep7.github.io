@@ -240,6 +240,7 @@
 						font-weight: normal;
 						letter-spacing: 0px;
 						text-transform: none;
+						margin-top: 40px;
 					}
 					.description strong,
 					.description a {
@@ -247,6 +248,9 @@
 					}
 					p.description {
 						line-height: 20px;
+					}
+					.first {
+						font-size: 40pt;
 					}
 					.photo {
 						background-position: center 52%;

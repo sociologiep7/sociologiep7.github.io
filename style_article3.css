@@ -247,6 +247,16 @@
 					p.description {
 						line-height: 20px;
 					}
+					.photo {
+						background-position: center 52%;
+						background-repeat: no-repeat;
+						background-size: cover !important;
+						border-left: 20px solid #000;
+						border-right: 20px solid #000;
+						height: 400px;
+						width: 96%;
+						margin: 50px auto;
+					}
 			/**** RIGHT BOX ****/
 				#rightbox {
 					background-image: url("icons/next_green.png");

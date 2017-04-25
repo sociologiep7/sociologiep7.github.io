@@ -253,6 +253,16 @@
 					.first {
 						font-size: 40pt;
 					}
+					.photo {
+						background-position: center 52%;
+						background-repeat: no-repeat;
+						background-size: cover !important;
+						-webkit-box-shadow: 0px 42px 25px -28px rgba(0, 0, 0, 0.35) !important;
+            						box-shadow: 0px 42px 25px -28px rgba(0, 0, 0, 0.35) !important;
+						height: 400px;
+						width: 100%;
+						margin: 50px auto;
+					}
 			/**** RIGHT BOX ****/
 				#rightbox {
 					background-image: url("icons/next_purple.png");

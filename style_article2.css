@@ -3,6 +3,15 @@
 	* {
 	    	font-family: "Roboto", sans-serif !important;
 	}
+	@font-face {
+	    font-family: "Bebas Neue";
+	    src: url("fonts/BebasNeue Regular.ttf");
+	}
+	@font-face {
+	    font-family: "Bebas Neue";
+	    src: url("fonts/BebasNeue Bold.ttf");
+	    font-weight: bold;
+	}
 	html, 
 	body {
 		background: #DED7E6;
